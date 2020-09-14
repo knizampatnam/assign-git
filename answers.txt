@@ -1,5 +1,5 @@
 What is a gitignore file and what should it include for a Java project?
-.gitignore file is added in main directory of the repository and it specifies intenionally untracked files to ignore. Using different Java IDE's create extra files and by using .gitignore file will ignore file and patterns you mention. 
+.gitignore file is added in main directory of the repository and it specifies intenionally untracked files to ignore. Using different Java IDE's creates extra files and by using .gitignore file will ignore file and patterns you mention. For Java project .gitignore should include .jar, ,class, .ear, .war etc
 
 What does fast-forward in Git mean?
 In Git fastforwarding means if master is not diverged, instead of creating a new commit, git will just point master to the latest commit of the feature branch.
